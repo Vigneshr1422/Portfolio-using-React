@@ -1,0 +1,12 @@
+[build]
+  publish = "dist" # Folder to publish (this is your build output)
+  command = "npm run build"  # Command to build the app
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true
+
+[build.environment]
+  NODE_ENV = "production"
