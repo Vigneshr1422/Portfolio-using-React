@@ -7,6 +7,7 @@ import sms from '/kalki.png'
 
 import smartdrive from '/smartdrive.png';
 import Plaz from '/plaz.png'
+import Task from '/task.png'
 
 function Project() {
     const [activeFilter, setActiveFilter] = useState('all');
@@ -77,6 +78,26 @@ function Project() {
                 "Generate filtered student mark lists as Excel files",
                 "Visualize data using interactive pie charts",
                 "Accurately track student placement status with over 95% efficiency"
+              ]
+              
+        },
+         {
+            id: 4,
+            title: "Internship Task - Student Management Hub ",
+                description: " Student Management Hub, seems to be a practical application of Firebase Authentication to securely store and retrieve student data",
+            image: Task,
+            category: "frontend",
+            githubLink: "https://github.com/Vigneshr1422",
+            liveLink: "https://taskbabycode.netlify.app",
+            techStack: [
+                { name: "React.js"},
+                { name: "Firebase" },
+                { name: "Tailwind CSS" }
+            ],
+            features: [
+                "Dynamic Filtering: Allow users to select departments and instantly see relevant students.",
+                "Graphical Representation: Use charts or cards to display department-wise student distribution",
+                "High-efficiency tracking."
               ]
               
         },
