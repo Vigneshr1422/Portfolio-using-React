@@ -8,6 +8,7 @@ import sms from '/kalki.png'
 import smartdrive from '/smartdrive.png';
 import Plaz from '/plaz.png'
 import Task from '/task.png'
+import zerve from '/zerve.png'
 
 function Project() {
     const [activeFilter, setActiveFilter] = useState('all');
@@ -41,7 +42,30 @@ function Project() {
             ]
         },
         {
-            id: 2,
+  id: 2,
+  title: "ZERVE – QR Based Food Ordering App",
+  description: "Scan, order, and enjoy! A seamless digital dining experience using QR codes for menu access, cart management, and order placement.",
+  image: zerve, // 🔁 replace with your actual image import
+  category: "full-Stack",
+  githubLink: "https://github.com/Vigneshr1422/Project_QR",
+  liveLink: "https://desserttap.netlify.app/", // 🔁 replace with actual frontend URL if available
+  techStack: [
+    { name: "React.js" },
+    { name: "Tailwind CSS" },
+    { name: "Node.js" },
+    { name: "Express.js" },
+    { name: "MongoDB" }
+  ],
+  features: [
+    "Scan QR code and view table-specific menus instantly",
+    "Add items with quantity and place orders via cart",
+    "OTP-based login for users and admin dashboard support",
+    "QR management with generate/edit/delete functionality"
+  ]
+}
+,
+        {
+            id: 3,
             title: "Student Monitoring System ",
             description: "Tracks all mandatory student activities and provides certificates in an efficient manner.",
             image: sms,
@@ -62,7 +86,7 @@ function Project() {
               
         },
         {
-            id: 3,
+            id: 4,
             title: "College Management Hub ",
             description: "An innovative solution for College placement management through strategic plantation planning.",
             image: Plaz,
@@ -82,7 +106,7 @@ function Project() {
               
         },
          {
-            id: 4,
+            id: 5,
             title: "Internship Task - Student Management Hub ",
                 description: " Student Management Hub, seems to be a practical application of Firebase Authentication to securely store and retrieve student data",
             image: Task,
